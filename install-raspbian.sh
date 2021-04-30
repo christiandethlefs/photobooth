@@ -305,7 +305,7 @@ if [[ $REPLY =~ ^[Yy]$ ]]
 then
     apt install -y unclutter
 
-    cat >> /etc/xdg/lxsession/LXDE-pi/autostart <<EOF
+    cat >> /etc/xdg/lxsession/LXDE/autostart <<EOF
 
 @xset s off
 @xset -dpms
